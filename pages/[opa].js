@@ -22,6 +22,12 @@ const Opa = () => {
     </>
   )
 }
+export async function getStaticPaths() {
+  return {
+    paths: [{ params: { opa: 'test' } }],
+    fallback: true,
+  }
+}
 export async function getStaticProps() {
   const posts = []
 
