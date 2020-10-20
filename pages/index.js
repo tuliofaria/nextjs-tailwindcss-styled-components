@@ -15,6 +15,7 @@ const Index = () => {
     <>
       <Head>
         <title>Test Styled-components</title>
+        <meta name='description' content='This is a description' />
       </Head>
       <h1>Test</h1>
       <Card rounded>Test</Card>
